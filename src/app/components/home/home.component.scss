@@ -1,0 +1,39 @@
+@import "../../../color-variable.scss";
+
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-family: "Roboto", sans-serif;
+
+  padding: 0 70px;
+
+  span {
+
+    color: $secondary-text;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  h1 {
+    color: $primary-text;
+    font-size: 72px;
+    font-weight: 900;
+  }
+}
+
+.benefit-section {
+  margin-top: 3rem;
+  display: flex;
+  padding: 0 70px;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+  }
+}
