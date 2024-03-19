@@ -9,6 +9,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   templateUrl: './news-form.component.html',
   styleUrl: './news-form.component.scss'
 })
+
 export class NewsFormComponent {
 
 }
